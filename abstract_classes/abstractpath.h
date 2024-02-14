@@ -2,7 +2,7 @@
 #define ABSTRACTPATH_H
 #include <QObject>
 #include <QThread>
-
+#include <windows.h>
 class AbstractPath : public QThread
 {
     Q_OBJECT

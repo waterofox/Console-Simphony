@@ -1,5 +1,5 @@
 #ifndef FISRTPATH_H
-#define FISRTPATH_HW
+#define FISRTPATH_H
 #include "../abstract_classes/abstractpath.h"
 class FisrtPath : public AbstractPath
 {

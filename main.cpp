@@ -3,7 +3,11 @@
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    FisrtPath* test_object = new FisrtPath();
-    test_object->run();
+
+    FisrtPath* first_path = new FisrtPath();
+    first_path->start_delay = 0;
+
+    first_path->run();
+
     return a.exec();
 }
